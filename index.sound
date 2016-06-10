@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>	
+<audio controls loop id="myTune">
+  <source src="Runaway.mp3">
+  <source src="Runaway.ogg">
+</audio>
+ 
+<button onclick="document.getElementById('myTune').play()">Play Music</button>
+<button onclick="document.getElementById('myTune').pause()">Pause Music</button>
+<button onclick="document.getElementById('myTune').pause(); document.getElementById('myTune').currentTime = 0;">Stop Music</button>
+</body>
+</html>
